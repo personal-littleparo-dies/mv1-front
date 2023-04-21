@@ -22,7 +22,7 @@ export default {
           sketch.fill(255)
           sketch.rect(100, 100, 200, 200)
         }
-      }, canvas.value!)
+      }, canvas.value)
     })
     return { canvas }
   }
