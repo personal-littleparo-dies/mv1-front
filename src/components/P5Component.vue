@@ -10,7 +10,6 @@ export default {
   name: 'P5Component',
   setup() {
     const canvas = ref<HTMLCanvasElement | null>(null)
-    
     onMounted(() => {
       new p5((sketch) => {
         sketch.setup = () => {
